@@ -1,0 +1,6 @@
+Scenario-Based Question: CRUD Application Using Spring Boot and Spring Data JPA Scenario: You are tasked with developing a CRUD application to manage a list of Employee objects stored in a MySQL database. Each Employee has an id, name, and department. The application should allow the following functionalities:
+
+Create: Add a new employee to the database.
+Read: Retrieve all employees or find an employee by their id.
+Update: Update the details of an employee by their id.
+Delete: Remove an employee from the database by their id. Requirements:  Use Spring Boot for rapid application development.  Use Spring Data JPA for database operations.  Ensure that the Employee class has appropriate annotations for JPA.  Configure the database connection using Spring Boot properties.
