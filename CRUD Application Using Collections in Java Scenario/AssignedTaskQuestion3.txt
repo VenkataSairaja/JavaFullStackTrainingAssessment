@@ -1,0 +1,11 @@
+Scenario-Based Question: CRUD Application Using Collections in Java Scenario: You are tasked with developing a simple CRUD application for managing a list of Student objects. Each Student has an id, name, and age. The application should allow the following functionalities:
+
+Create: Add a new student to the list.
+Read: Display all students or find a student by their id.
+Update: Update the details of a student by their id.
+Delete: Remove a student from the list by their id. Requirements:  Use ArrayList or HashMap to store the Student objects.  Ensure that the Student class has appropriate constructors, getters, and setters. Instructions: Implement the following methods in a Java class named StudentManager:
+addStudent(Student student): Adds a new student to the collection.
+getAllStudents(): Returns a list of all students.
+getStudentById(int id): Returns a student by their id, or null if not found.
+updateStudent(int id, String name, int age): Updates the name and age of the student with the specified id.
+deleteStudent(int id): Removes the student with the specified id from the collection.
