@@ -1,0 +1,11 @@
+Scenario-Based Question: CRUD Application Using Spring Core, Spring JDBC, and Maven Scenario: You are tasked with developing a CRUD application to manage a list of Employee objects stored in a MySQL database. Each Employee has an id, name, and department. The application should allow the following functionalities:
+
+Create: Add a new employee to the database.
+Read: Retrieve all employees or find an employee by their id.
+Update: Update the details of an employee by their id.
+Delete: Remove an employee from the database by their id. Requirements:  Use Spring Core for dependency injection.  Use Spring JDBC for database operations.  Use Maven for project management and dependencies.  Ensure that the Employee class has appropriate constructors, getters, and setters.  Configure the database connection using Spring. Database Table Schema: sql Copy code CREATE TABLE Employees ( id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50), department VARCHAR(50) ); Instructions: Implement the following methods in a Java class named EmployeeManager:
+addEmployee(Employee employee): Adds a new employee to the database.
+getAllEmployees(): Returns a list of all employees.
+getEmployeeById(int id): Returns an employee by their id, or null if not found.
+updateEmployee(Employee employee): Updates the details of the employee.
+deleteEmployee(int id): Removes the employee with the specified id from the database.
