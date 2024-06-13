@@ -1,0 +1,6 @@
+Scenario-Based Question: CRUD Application Using JDBC with Oracle Scenario: You are tasked with developing a simple CRUD application for managing a list of Student objects stored in an Oracle database. Each Student has an id, name, and age. The application should allow the following functionalities:
+
+Create: Add a new student to the database.
+Read: Retrieve all students or find a student by their id.
+Update: Update the details of a student by their id.
+Delete: Remove a student from the database by their id. Database Table Schema: sql Copy code CREATE TABLE Students ( id NUMBER PRIMARY KEY, name VARCHAR2(50), age NUMBER ); Requirements:  Use JDBC to interact with the Oracle database.  Ensure that the Student class has appropriate constructors, getters, and setters.
